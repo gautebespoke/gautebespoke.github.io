@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="253px" height="2px" viewBox="0 0 253 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-dasharray="10,10,10,10">
+        <g id="Desktop" transform="translate(-348.000000, -350.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Head-Link" transform="translate(349.000000, 246.000000)">
+                <path d="M0.5,105 L260.5,105" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>
