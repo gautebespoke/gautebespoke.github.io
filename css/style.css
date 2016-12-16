@@ -1,6 +1,10 @@
 @charset "UTF-8";
 * {
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 html,
@@ -62,7 +66,7 @@ body {
     }
     /* -----------story------------------------- */
     .story {
-        height: 500px;
+        height: 450px;
     }
     .story_contents {
         max-width: 90%;
@@ -77,9 +81,10 @@ body {
     }
     #story_title {
         font-size: 35px;
-        font-weight: 300;
+        font-weight: 200;
     }
     .story_content {
+        text-align: center;
         margin: auto;
     }
     .story_pic {
@@ -87,17 +92,11 @@ body {
         margin-left: -25px;
     }
     .story_word {
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 300px;
-    }
-    .story_word_visible_xs {
-        text-align: center;
         margin: auto;
+        text-align: center;
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 260px;
+        width: 80%;
     }
     .story_pic img {
         margin: 0px;
@@ -212,19 +211,15 @@ body {
         font-size: 18px;
         margin-top: 15px;
     }
-    /* ------------------------------------ */
+    /* --------------story---------------------- */
     .story {
-        height: 600px;
+        height: 700px;
     }
     .story_contents {
-        max-width: 90%;
         margin: auto;
-    }
-    .story_titles {
-        color: black;
-        text-align: center;
-        padding: 40px 0 0 0;
-        font-size: 40px;
+        max-width: 90%;
+        line-height: 1.25;
+        font-weight: 300;
     }
     .story_titles {
         color: black;
@@ -233,19 +228,35 @@ body {
     }
     #story_title {
         font-size: 35px;
-        font-weight: 300;
     }
     .story_content {
-        margin: auto;
+        vertical-align: top;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .story_words {
+        width: 320px;
+        text-align: left;
+        display: inline-block;
+        margin-left: -40px;
     }
     .story_word {
-        margin-top: 100px;
-        width: 360px;
+        font-size: 15px;
+        margin-top: 40px;
+        padding-top: 20px;
         font-weight: 300;
+        margin-left: 15px;
+        padding: 20px;
+    }
+    .story_pic {
+        vertical-align: top;
+        display: inline-block;
     }
     .story_pic img {
-        margin: 5px;
-        width: 320px;
+        margin-right: -5px;
+        width: 350px;
     }
     /* -------------steps----------------------- */
     .steps_to_style {
@@ -404,13 +415,13 @@ body {
         font-size: 20px;
         margin-top: 15px;
     }
-    /* --------------header---------------------- */
+    /* --------------story---------------------- */
     .story {
-        height: 600px;
+        height: 700px;
     }
     .story_contents {
-        max-width: 90%;
         margin: auto;
+        max-width: 80%;
         line-height: 1.25;
         font-weight: 300;
     }
@@ -421,20 +432,35 @@ body {
     }
     #story_title {
         font-size: 35px;
-        font-weight: 300;
     }
     .story_content {
-        margin: auto;
+        vertical-align: top;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .story_words {
+        width: 320px;
+        text-align: left;
+        display: inline-block;
+        margin-left: -40px;
     }
     .story_word {
+        font-size: 15px;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-weight: 300;
         margin-left: 15px;
-        margin-top: 75px;
         padding: 20px;
     }
-    .story_pic {}
+    .story_pic {
+        vertical-align: top;
+        display: inline-block;
+    }
     .story_pic img {
-        margin-right: 0px;
-        width: 360px;
+        margin-right: -5px;
+        width: 350px;
     }
     /* -------------steps----------------------- */
     .steps_to_style {
@@ -599,6 +625,7 @@ body {
         height: 700px;
     }
     .story_contents {
+        margin: auto;
         max-width: 60%;
         line-height: 1.25;
         font-weight: 300;
@@ -629,6 +656,8 @@ body {
         margin-top: 40px;
         padding-top: 20px;
         font-weight: 300;
+        margin-left: 15px;
+        padding: 20px;
     }
     .story_pic {
         vertical-align: top;
