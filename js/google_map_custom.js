@@ -26,7 +26,6 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     var image = {
-        url: 'images/suit1.png',
         // This marker is 20 pixels wide by 32 pixels high.
         size: new google.maps.Size(64, 64),
         // The origin for this image is (0, 0).

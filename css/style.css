@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
     position: relative;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -104,7 +104,7 @@ body {
     }
     /* -----------------steps------------------- */
     .steps_to_style {
-        height: 1200px;
+        height: 1780px;
     }
     .steps_titles {
         color: white;
@@ -116,23 +116,23 @@ body {
         font-size: 30px;
         font-weight: 200;
     }
-    .story-xs-text {
+    .steps-xs-text {
         max-width: 80%;
         font-weight: 300;
         text-align: left;
         margin: auto;
         margin-bottom: 40px;
     }
-    .story-xs-text .number {
+    .steps-xs-text .number {
         color: white;
         font-size: 20px;
     }
-    span.story-xs-title {
+    span.steps-xs-title {
         color: #B6B2B2;
         font-size: 14px;
         margin-left: 8px;
     }
-    .story-xs-content {
+    .steps-xs-content {
         width: 80%;
         margin: auto;
     }
@@ -260,7 +260,7 @@ body {
     }
     /* -------------steps----------------------- */
     .steps_to_style {
-        height: 1100px;
+        height: 2400px;
     }
     .steps_titles {
         color: white;
@@ -272,88 +272,48 @@ body {
         font-size: 35px;
         font-weight: 200;
     }
-    /* ------------------------------------ */
-    .masonry-layout {
-        left: 20px;
-        width: 600px;
-        margin: auto;
-        column-count: 2;
-        column-gap: 0px;
+    .number {
+        font-size: 30px;
     }
-    .masonry-layout-panel {
-        -webkit-column-break-inside: avoid;
-        /* Chrome, Safari, Opera */
-        page-break-inside: avoid;
-        /* Firefox */
-        break-inside: avoid;
-        /* IE 10+ */
-        margin-bottom: 15px;
+    .steps-title {
+        font-size: 18px;
     }
-    .masonry-title {
-        margin: 10px 10px 0 0;
-        font-size: 20px;
-        color: #B6B2B2;
-    }
-    .story-title-text {
+    .steps-pic-word {
         font-size: 14px;
-        color: white;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
-    .masonry-layout_panel-content {
-        padding: 10px;
+    .inquiry {
+        margin-top: 20px;
     }
-    .hvrbox,
-    .hvrbox * {
-        box-sizing: border-box;
+    .inquiry-content .number {
+        padding-left: 110px;
     }
-    .hvrbox {
-        position: relative;
-        display: inline-block;
-        overflow: hidden;
-        max-width: 100%;
-        height: auto;
+    .inquiry-content .steps-content {
+        padding-left: 140px;
     }
-    .hvrbox img {
-        max-width: 100%;
+    .selection-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .layer_bottom {
-        display: block;
+    .striking-content .number {
+        padding-left: 150px;
     }
-    .hvrbox .hvrbox-layer_top {
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 15px;
-        -moz-transition: all 0.4s ease-in-out 0s;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        -ms-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
+    .striking-content .steps-content {
+        padding-left: 180px;
     }
-    .hvrbox:hover .hvrbox-layer_top,
-    .hvrbox.active .hvrbox-layer_top {
-        opacity: 1;
+    .fitting {}
+    .fitting-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .hvrbox-text {
-        font-weight: 200;
-        letter-spacing: 2px;
-        line-height: 1.6rem;
-        text-align: left;
-        font-size: 14px;
-        display: inline-block;
-        position: absolute;
+    .fitting-content .steps-content {}
+    .handiwork-content .number {
+        padding-left: 80px;
     }
-    /* ------------------------------------ */
-    .steps_contents {
-        max-width: 90%;
-        margin: auto;
-        line-height: 1.25;
-        font-weight: 300;
+    .handiwork-content .steps-content {
+        padding-left: 110px;
+    }
+    .ironing-content .number {
+        margin-left: -30px;
     }
     /* -------------info----------------------- */
     .info {
@@ -405,7 +365,7 @@ body {
         transform: translateX(-50%) translateY(-50%);
     }
     .header {
-        height: 750px;
+        height: 700px;
     }
     .header_title h1 {
         font-size: 65px;
@@ -417,7 +377,7 @@ body {
     }
     /* --------------story---------------------- */
     .story {
-        height: 700px;
+        height: 650px;
     }
     .story_contents {
         margin: auto;
@@ -464,7 +424,7 @@ body {
     }
     /* -------------steps----------------------- */
     .steps_to_style {
-        height: 1100px;
+        height: 2300px;
     }
     .steps_titles {
         color: white;
@@ -476,88 +436,48 @@ body {
         font-size: 35px;
         font-weight: 200;
     }
-    /* ------------------------------------ */
-    .masonry-layout {
-        left: 20px;
-        width: 600px;
-        margin: auto;
-        column-count: 2;
-        column-gap: 0px;
+    .number {
+        font-size: 35px;
     }
-    .masonry-layout-panel {
-        -webkit-column-break-inside: avoid;
-        /* Chrome, Safari, Opera */
-        page-break-inside: avoid;
-        /* Firefox */
-        break-inside: avoid;
-        /* IE 10+ */
-        margin-bottom: 15px;
+    .steps-title {
+        font-size: 18px;
     }
-    .masonry-title {
-        margin: 10px 10px 0 0;
-        font-size: 20px;
-        color: #B6B2B2;
-    }
-    .story-title-text {
+    .steps-pic-word {
         font-size: 14px;
-        color: white;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
-    .masonry-layout_panel-content {
-        padding: 10px;
+    .inquiry {
+        margin-top: 20px;
     }
-    .hvrbox,
-    .hvrbox * {
-        box-sizing: border-box;
+    .inquiry-content .number {
+        padding-left: 110px;
     }
-    .hvrbox {
-        position: relative;
-        display: inline-block;
-        overflow: hidden;
-        max-width: 100%;
-        height: auto;
+    .inquiry-content .steps-content {
+        padding-left: 140px;
     }
-    .hvrbox img {
-        max-width: 100%;
+    .selection-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .layer_bottom {
-        display: block;
+    .striking-content .number {
+        padding-left: 150px;
     }
-    .hvrbox .hvrbox-layer_top {
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 15px;
-        -moz-transition: all 0.4s ease-in-out 0s;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        -ms-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
+    .striking-content .steps-content {
+        padding-left: 180px;
     }
-    .hvrbox:hover .hvrbox-layer_top,
-    .hvrbox.active .hvrbox-layer_top {
-        opacity: 1;
+    .fitting {}
+    .fitting-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .hvrbox-text {
-        font-weight: 200;
-        letter-spacing: 2px;
-        line-height: 1.6rem;
-        text-align: left;
-        font-size: 14px;
-        display: inline-block;
-        position: absolute;
+    .fitting-content .steps-content {}
+    .handiwork-content .number {
+        padding-left: 80px;
     }
-    /* ------------------------------------ */
-    .steps_contents {
-        max-width: 90%;
-        margin: auto;
-        line-height: 1.25;
-        font-weight: 300;
+    .handiwork-content .steps-content {
+        padding-left: 110px;
+    }
+    .ironing-content .number {
+        margin-left: -30px;
     }
     /* -------------info----------------------- */
     .info {
@@ -609,7 +529,7 @@ body {
         transform: translateX(-50%) translateY(-50%);
     }
     .header {
-        height: 1100px;
+        height: 900px;
     }
     .header_title h1 {
         font-size: 65px;
@@ -622,7 +542,7 @@ body {
     }
     /* -------------story----------------------- */
     .story {
-        height: 700px;
+        height: 650px;
     }
     .story_contents {
         margin: auto;
@@ -637,6 +557,7 @@ body {
     }
     #story_title {
         font-size: 35px;
+        font-weight: 300;
     }
     .story_content {
         vertical-align: top;
@@ -669,7 +590,7 @@ body {
     }
     /* -------------steps----------------------- */
     .steps_to_style {
-        height: 1100px;
+        height: 2350px;
     }
     .steps_titles {
         color: white;
@@ -681,86 +602,60 @@ body {
         font-size: 35px;
         font-weight: 200;
     }
-    /* ------------------------------------ */
-    .masonry-layout {
-        left: 20px;
-        width: 600px;
-        column-count: 2;
+    .steps-content {
+        margin: auto;
+        font-weight: 300;
     }
-    .masonry-layout-panel {
-        -webkit-column-break-inside: avoid;
-        /* Chrome, Safari, Opera */
-        page-break-inside: avoid;
-        /* Firefox */
-        break-inside: avoid;
-        /* IE 10+ */
-        margin-bottom: 15px;
+    .number {
+        font-size: 35px;
     }
-    .masonry-title {
-        margin: 10px 10px 0 0;
-        font-size: 20px;
-        color: #B6B2B2;
+    .steps-title {
+        font-size: 18px;
     }
-    .story-title-text {
+    .steps-pic-word {
         font-size: 14px;
-        color: white;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
-    .masonry-layout_panel-content {
-        padding: 10px;
+    .inquiry {
+        margin-top: 20px;
     }
-    .hvrbox,
-    .hvrbox * {
-        box-sizing: border-box;
+    .inquiry-content .number {
+        padding-left: 20px;
     }
-    .hvrbox {
-        position: relative;
-        display: inline-block;
-        overflow: hidden;
-        max-width: 100%;
-        height: auto;
+    .inquiry-content .steps-content {
+        padding-left: 50px;
     }
-    .hvrbox img {
-        max-width: 100%;
+    .selection-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .layer_bottom {
-        display: block;
+    .striking-content .number {
+        padding-left: 60px;
     }
-    .hvrbox .hvrbox-layer_top {
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 15px;
-        -moz-transition: all 0.4s ease-in-out 0s;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        -ms-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
+    .striking-content .steps-content {
+        padding-left: 90px;
     }
-    .hvrbox:hover .hvrbox-layer_top,
-    .hvrbox.active .hvrbox-layer_top {
-        opacity: 1;
+    .fitting {}
+    .fitting-content .number {
+        margin-left: -30px;
     }
-    .hvrbox .hvrbox-text {
-        font-weight: 200;
-        letter-spacing: 2px;
-        line-height: 1.6rem;
-        text-align: left;
-        font-size: 14px;
-        display: inline-block;
-        position: absolute;
+    .fitting-content .steps-content {}
+    .handiwork-content .number {
+        padding-left: 150px;
+    }
+    .handiwork-content .steps-content {
+        padding-left: 180px;
+    }
+    .ironing-content .number {
+        margin-left: -30px;
     }
     /* -------------info----------------------- */
     .info {
         height: 850px;
+        background: black;
     }
     .info_titles {
-        color: black;
+        color: white;
         text-align: center;
         padding: 40px 0 0 0;
         margin-bottom: 70px;
@@ -782,13 +677,106 @@ body {
         font-size: 16px;
         margin-top: 50px;
         text-align: center;
+        color: white;
         font-weight: 200;
+    }
+    /*------------archive--------------*/
+    .achieve {
+        height: 800px;
+    }
+    .achieve_titles {
+        color: black;
+        text-align: center;
+        padding: 40px 0 0 0;
+        margin-bottom: 50px;
+    }
+    .achieve_content {
+        margin: auto;
+        margin-left: -250px;
+        text-align: center;
+    }
+    #achieve_title {
+        font-size: 35px;
+        font-weight: 200;
+    }
+    .star {
+        margin: 20px;
+    }
+    .stars-title {
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+    .stars-cooperation {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: left;
+        display: inline-block;
+    }
+    .brand {
+        margin: 20px;
+    }
+    .brand-title {
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+    .brand-cooperation {
+        margin-left: 30px;
+        margin-right: 50px;
+        text-align: left;
+        display: inline-block;
     }
     /*------------footer--------------*/
     footer {
         text-align: center;
         margin: auto;
+        background: black;
         font-size: 10px;
         font-weight: 200;
+    }
+    footer p {
+        color: white;
+    }
+    @media (min-width: 1370px) {
+        .steps-content {
+            margin: auto;
+            width: 90%;
+        }
+        .inquiry-content .number {
+            padding-left: 0px;
+        }
+        .inquiry-content .steps-content {
+            padding-left: 0px;
+        }
+        .selection-content .number {
+            margin-left: -15px;
+        }
+        .striking-content .number {
+            padding-left: 30px;
+        }
+        .selection img {
+            padding-left: 50px;
+        }
+        .striking-content .steps-content {
+            padding-left: 30px;
+        }
+        .fitting img {
+            padding-left: 50px;
+        }
+        .fitting-content .number {
+            margin-left: 0px;
+        }
+        .fitting-content .steps-content {}
+        .handiwork-content .number {
+            padding-left: 100px;
+        }
+        .handiwork-content .steps-content {
+            padding-left: 100px;
+        }
+        .ironing img {
+            padding-left: 20px;
+        }
+        .ironing-content .number {
+            margin-left: 0px;
+        }
     }
 }
