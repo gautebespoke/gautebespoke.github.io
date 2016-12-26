@@ -620,11 +620,17 @@ body {
     .inquiry {
         margin-top: 20px;
     }
+    .inquiry-content {
+        background-color: #151515;
+    }
     .inquiry-content .number {
         padding-left: 20px;
     }
     .inquiry-content .steps-content {
         padding-left: 50px;
+    }
+    .selection-content {
+        background-color: #151515;
     }
     .selection-content .number {
         margin-left: -30px;
@@ -636,15 +642,22 @@ body {
         padding-left: 90px;
     }
     .fitting {}
+    .fitting-content {
+        background-color: #151515;
+    }
     .fitting-content .number {
         margin-left: -30px;
     }
     .fitting-content .steps-content {}
+    .handiwork-content {}
     .handiwork-content .number {
         padding-left: 150px;
     }
     .handiwork-content .steps-content {
         padding-left: 180px;
+    }
+    .ironing-content {
+        background-color: #151515;
     }
     .ironing-content .number {
         margin-left: -30px;
@@ -680,37 +693,43 @@ body {
         color: white;
         font-weight: 200;
     }
-    /*------------archive--------------*/
+    /*------------Dairy--------------*/
     .achieve {
-        height: 800px;
+        height: 700px;
     }
     .achieve_titles {
         color: black;
         text-align: center;
         padding: 40px 0 0 0;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .achieve_content {
+        margin-top: 80px;
         margin: auto;
-        margin-left: -250px;
         text-align: center;
     }
     #achieve_title {
         font-size: 35px;
         font-weight: 200;
     }
-    .star {
+    .activity {
         margin: 20px;
     }
-    .stars-title {
+    .activitys-title {
         text-decoration: underline;
         margin-bottom: 40px;
     }
-    .stars-cooperation {
+    .activitys-cooperation {
         margin-left: 30px;
         margin-right: 30px;
         text-align: left;
         display: inline-block;
+    }
+    .activitys-cooperation_content:hover {
+        display: inline;
+        color: white;
+        background-color: #151515;
+        border-bottom-width: 2px;
     }
     .brand {
         margin: 20px;
@@ -724,6 +743,13 @@ body {
         margin-right: 50px;
         text-align: left;
         display: inline-block;
+    }
+    .brand-cooperation_content:hover {
+        display: inline;
+        cursor: hand;
+        color: white;
+        background-color: #141414;
+        border-bottom-width: 2px;
     }
     /*------------footer--------------*/
     footer {
