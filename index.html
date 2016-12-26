@@ -3,7 +3,7 @@
 
 <head>
     <title>Gaute</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
@@ -28,6 +28,29 @@
                 $('html, body').animate({
                     scrollTop: 0
                 }, 300);
+            })
+            $('.popup-trigger').click(function(e) {
+
+                e.stopPropagation();
+                if (jQuery(window).width() < 767) {
+                    $(this).after($(this).nextAll('.popup:first'));
+                    $(this).nextAll('.popup:first').show();
+
+                } else {
+                    $('.popup').hide();
+                    $(this).nextAll('.popup:first').toggle();
+                };
+            });
+            $('html').click(function() {
+                $('.popup').hide();
+            });
+
+            $('.popup-btn-close').click(function(e) {
+                $(this).parent().hide();
+            });
+
+            $('.popup').click(function(e) {
+                e.stopPropagation();
             })
         })
     </script>
@@ -212,40 +235,120 @@
                 <div class="activitys-cooperation ">
                     <h3 class="activitys-title">活動合作</h3>
                     <div class="activity">
-                        <p class="activity-cooperation_content">26屆傳藝金曲獎主持禮服</p>
+                        <p class="activitys-cooperation_content popup-trigger">26屆傳藝金曲獎主持禮服</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">26屆傳藝金曲獎主持禮服</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">新加坡上海宣傳服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">新加坡上海宣傳服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">新加坡上海宣傳服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">活動出席服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">活動出席服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">活動出席服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">赤道電影記者會服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">赤道電影記者會服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">赤道電影記者會服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">金花獎國際電影獎出席服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">金花獎國際電影獎出席服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">金花獎國際電影獎出席服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">51屆金鐘獎入圍最佳男主角出席服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">51屆金鐘獎入圍最佳男主角出席服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">51屆金鐘獎入圍最佳男主角出席服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="activity">
-                        <p class="activity-cooperation_content">53屆金鐘獎入圍最佳新導演獎出席服裝</p>
+                        <p class="activitys-cooperation_content popup-trigger">53屆金鐘獎入圍最佳新導演獎出席服裝</p>
+                        <div class="popup ">
+                            <h2 class="popup-title">53屆金鐘獎入圍最佳新導演獎出席服裝</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                 </div>
                 <div class="brand-cooperation">
                     <h3 class="brand-title">品牌合作</h3>
                     <div class="brand">
-                        <p class="brand-name">Glen Ddich</p>
-                        <p class="brand-cooperation_content">15年單一麥芽威士忌廣告形象</p>
+                        <p class="brand-name ">Glenfiddichh</p>
+                        <a class="brand-cooperation_content popup-trigger " rel="nofollow ">15年單一麥芽威士忌廣告形象</a>
+                        <div class="popup ">
+                            <h2 class="popup-title">Gaute x Glenfiddich</h2>
+                            <p class="popup-content">Date: 2016/06/08</p>
+                            <p class="popup-content">Location: Taipei</p>
+                            <p class="popup-content">在世界各地的任何國家，西服始終是男士們出席各個 場合的布標準樣服選裝擇，更是專業的象徵。調酒師 Jun 選擇 穿上了 Gaute 的俐落西裝來參與重大的形象拍攝， 產品選擇 並且雙方看到成品後都非常滿意。
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="brand">
-                        <p class="brand-name">高雄台鋁 MLD (經濟部)</p>
-                        <p class="brand-cooperation_content">婚紗設計博物館展覽唯一獲邀西服品牌</p>
+                        <p class="brand-name ">高雄台鋁 MLD (經濟部)</p>
+                        <a class="brand-cooperation_content popup-trigger ">婚紗設計博物館展覽唯一獲邀西服品牌</a>
+                        <div class="popup ">
+                            <h2 class="popup-title">Gaute x 經濟部</h2>
+                            <p class="popup-content">Date: 2016/08/12</p>
+                            <p class="popup-content">Location: Kaohsiung</p>
+                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                     <div class="brand">
-                        <p class="brand-name">Sculptor Barber</p>
-                        <p class="brand-cooperation_content">品牌活動開幕合作企劃</p>
+                        <p class="brand-name ">Sculptor Barber</p>
+                        <a class="brand-cooperation_content popup-trigger">品牌活動開幕合作企劃</a>
+                        <div class="popup ">
+                            <h2 class="popup-title">Gaute x Sculptor Baber</h2>
+                            <p class="popup-content">Date: 2016/12/04</p>
+                            <p class="popup-content">Location: Taipei</p>
+                            <p class="popup-content">時尚與風格是生活當中不可或缺的一部分，與我們的 日常環環布相樣扣選。自擇從 Gaute 創立至今交出了無數件作 品，我們也持續為周遭創造更多美好的事物，期望可以 合作案例 聯絡資訊 產品選擇 在台中推廣更具有國際觀的視野與生活態度。
+                            </p>
+                            <span class="popup-btn-close ">close</span>
+                        </div>
                     </div>
                 </div>
             </div>
