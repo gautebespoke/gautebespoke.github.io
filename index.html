@@ -3,15 +3,76 @@
 
 <head>
     <title>Gaute</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+
+    <!-- For old IEs -->
+    <link rel="shortcut icon" href="images/Favicons/favicon.ico" />
+    <!-- For new browsers - multisize ico  -->
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="images/Favicons/favicon.ico">
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/Favicons/favicon-152.png">
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/Favicons/favicon-144.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/Favicons/favicon-120.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/Favicons/favicon-114.png">
+    <!-- For iPhone 6+ -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/Favicons/favicon-180.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/Favicons/favicon-72.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="images/Favicons/favicon-57.png">
+    <!-- For Old Chrome -->
+    <link rel="icon" href="images/Favicons/favicon-32.png" sizes="32x32">
+    <!-- For IE10 Metro -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/Favicons/favicon-144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Chrome for Android -->
+    <link rel="manifest" href="images/Favicons/manifest.json">
+    <link rel="icon" sizes="192x192" href="images/Favicons/favicon-192.png">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.autoplay.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="js/google_map_custom.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function() {
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    center: true,
+                    dots: false,
+                    loop: true,
+
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplaySpeed: 700,
+                    autoplayHoverPause: true,
+                    margin: 0,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                });
+
+            });
             // Show or hide the sticky footer button
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 200) {
@@ -51,7 +112,8 @@
 
             $('.popup').click(function(e) {
                 e.stopPropagation();
-            })
+            });
+
         })
     </script>
 </head>
@@ -60,12 +122,13 @@
     <header class="header">
         <div class="header_contents">
             <div class="header_title">
-                <h1>Gaute</h1>
+                <img class="logo" src="images/logo/1_white.png">
             </div>
             <div class="link_list">
                 <h4><a href="#story"> Story</a></h4>
                 <h4><a href="#steps_to_style">Steps to Style</a></h4>
                 <h4>Our Work</h4>
+                <h4>Gallery</h4>
                 <h4><a href="#info">Info</a></h4>
             </div>
         </div>
@@ -78,19 +141,15 @@
             </div>
             <div class="story_content">
                 <div class="story_pic">
-                    <img class="hidden-xs" src="images/l01.jpg">
+                    <img src="images/l01.jpg">
                 </div>
                 <div class="story_words">
-                    <div class="story_word hidden-xs">
-                        <p>We offer bespoke tailoring service for men including suits, waistcoat, trousers and dinner jacket. Choose from a variety of fabrics including English, Italian, and Japanese in either a classic suit or a more creative approach,
-                            adhere to quality garment and traditional tailoring to create unique apparel tailored to you.We offer bespoke tailoring service for men including suits, waistcoat, trousers and dinner jacket.</p>
-                        <p class="hidden-xs">Choose from a variety of fabrics including English, Italian, and Japanese in either a classic suit or a more creative approach, adhere to quality garment and traditional tailoring to create unique apparel tailored to you.</p>
-                    </div>
                     <div class="story_word ">
-                        <p class="visible-xs">We offer bespoke tailoring service for men including suits, waistcoat, trousers and dinner jacket. Choose from a variety of fabrics including English, Italian, and Japanese in either a classic suit or a more creative approach,
-                            adhere to quality garment and traditional tailoring to create unique apparel tailored to you.</p>
-                        <p class="visible-xs">Choose from a variety of fabrics including English, Italian, and Japanese in either a classic suit or a more creative approach, adhere to quality garment and traditional tailoring to create unique apparel tailored to you.</p>
+                        <p class="chinese">傳承技藝，融合創新 繼往開來是我們品牌的核心價值 將傳統的工藝技術融合了品牌的創新思維 打造出屬於每位紳士的專屬西服。
+                        </p>
+                        <p class="english">Choose from a variety of fabrics including English, Italian, and Japanese in either a classic suit or a more creative approach, adhere to quality garment and traditional tailoring to create unique apparel tailored to you.</p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -105,46 +164,47 @@
             <div class="steps">
                 <div class="steps-content container-fluid hidden-xs">
                     <div class="inquiry steps-pic-word row">
-                        <div class="inquiry-img col-lg-3 col-md-3 col-lg-offset-1 col-sm-3  ">
+                        <div class="inquiry-img col-lg-3 col-lg-offset-1 col-md-3 col-sm-3  ">
                             <img src="images/Steps/1.png">
                         </div>
-                        <div class="col-lg-4  col-md-6 col-sm-6 inquiry-content">
+                        <div class="col-lg-4  col-md-6 col-sm-7  inquiry-content">
                             <p class="number">01 <span class="steps-title">Inquiry</span> </p>
-                            <div class="steps-content">透過專業的諮詢，我們將與您一同找出最合適的風格。依不同的場合、用途，量身打造出專屬於您的手工西服</div>
+                            <div class="steps-content">透過專業的諮詢，我們將與您一同找出最合適的風格。依不同的場合、用途，量身打造出專屬於您的手工西服。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">Communication plays big part of whole process, with Gaute professional team, we can find out the best types of suit tjat suit you the best.</div>
                         </div>
                     </div>
                     <div class="selection steps-pic-word row">
-                        <div class="col-lg-3 col-lg-offset-4 col-md-4 col-md-offset-3 col-sm-4 col-sm-offset-3 selection-content">
-                            <p class="number">02 <span class="steps-title">Selection</span> </p>
-                            <div class="steps-content">設定西服樣式後，依照客戶的需求與喜好，挑選世界各地優秀的布料與配件，並提供介紹與體驗；接著進行完整的尺寸測量，記錄所有身型特徵與體型判別</div>
+                        <div class="col-lg-5 col-lg-offset-3 col-md-7 col-md-offset-1 col-sm-5 col-sm-offset-1 selection-content">
+                            <p class="number">02 <span class="steps-title">Fabric selection & Measurements</span> </p>
+                            <div class="steps-content">設定西服樣式後，依照客戶的需求與喜好，挑選世界各地優秀的布料與配件，並提供介紹與體驗；接著進行完整的尺寸測量，記錄所有身型特徵與體型判別。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">Gaute offers an extensive range of materials, with our bespoke cloth swatch collection exceeding more than 2000 samples. Moreover, a full set of measurements are taken during the first consultation to ascertain shape, proportion,
+                                posture and balance. A paper pattern is then drafted, unique to the customer.</div>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-1">
                             <img src="images/Steps/2.png">
                         </div>
                     </div>
                     <div class="striking steps-pic-word row">
-                        <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-3">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-2">
                             <img src="images/Steps/3.png">
                         </div>
-                        <div class="col-lg-5 col-md-7 col-sm-8 striking-content">
-                            <p class="number">03 <span class="steps-title">Striking and cutting</span> </p>
-                            <div class="steps-content">依據所測量的數據製作版型，並針對不同體型的顧客做紙型補正，每件都是獨立紙型，根據不同體型微調；接著將布料按所製出的紙型進行剪裁，以純手工的方式縫合結構試穿與修樣</div>
+                        <div class="col-lg-6 col-md-8 col-sm-8 col-sm-offset-1 striking-content">
+                            <p class="number">03 <span class="steps-title">Striking pattern, cutting ＆ Basting</span> </p>
+                            <div class="steps-content">依據所測量的數據製作版型，並針對不同體型的顧客做紙型補正，每件都是獨立紙型，根據不同體型微調；接著將布料按所製出的紙型進行剪裁，以純手工的方式縫合結構試穿與修樣。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company
-                                for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">The unique measurements of every customer are captured by a paper drafted pattern. All garment fabrics are matched in pattern as closely as possible at the collar, shoulder and welts in order to create a visually flowing and
+                                coherent piece. And all the pieces of a suit are initially “basted” together with white thread for the fitting process.</div>
                         </div>
                     </div>
                     <div class="fitting steps-pic-word row">
-                        <div class="col-lg-4 col-lg-offset-3 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1 fitting-content">
-                            <p class="number">04 <span class="steps-title">Fitting and re-cutting</span> </p>
-                            <div class="steps-content">當顧客套上毛胚樣衣，直接在人體作微調；所有樣式、比例、線條和細節都再三琢磨，以達到完全量身訂製的效果；並且再次修正做出最細膩的尺寸調整</div>
+                        <div class="col-lg-5 col-lg-offset-3 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1 fitting-content">
+                            <p class="number">04 <span class="steps-title">Fitting ＆ re-cutting:</span> </p>
+                            <div class="steps-content">當顧客套上毛胚樣衣，直接在人體作微調；所有樣式、比例、線條和細節都再三琢磨，以達到完全量身訂製的效果；並且再次修正做出最細膩的尺寸調整。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company
-                                for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">At the fitting process, the customer and fitter are able to gauge, adjust and review the conception of the garment’s final fit as well as any corresponding work that is essential to achieve those results. After the fitting
+                                stages, the garment is completely broken down again in order to incorporate the necessary changes.</div>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-1">
                             <img src="images/Steps/4.png">
@@ -154,20 +214,20 @@
                         <div class="col-lg-3 col-lg-offset-1 col-md-5 col-sm-5 ">
                             <img src="images/Steps/5.png">
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-6 handiwork-content">
-                            <p class="number">05 <span class="steps-title">Handiwork</span> </p>
-                            <div class="steps-content">手工西裝之所以為『活』的西裝，其精髓在於全毛襯結構。裁縫師傅將一針一線地結合馬毛、羊毛等數十種配件，並固定在表布上；最後縫上手工扣眼，這些工序都比機縫耗費多出數百倍的工時，然而，這就是手工</div>
+                        <div class="col-lg-7 col-md-6 col-sm-6  handiwork-content">
+                            <p class="number">05 <span class="steps-title">Sewing process</span> </p>
+                            <div class="steps-content">手工西裝之所以為『活』的西裝，其精髓在於全毛襯結構。裁縫師傅將一針一線地結合馬毛、羊毛等數十種配件，並固定在表布上；最後縫上手工扣眼，這些工序都比機縫耗費多出數百倍的工時，然而，這就是手工。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">During the sewing process, there is a considerable amount of pressing that is required to manipulate the fabric into a fully live and three-dimensional part of the whole garment. Familiarity of the fabric and experience is
+                                crucial here to attain the right curves and shape. The traditional materials of horsehair together with the suiting fabric provide the structure which will not only last but also conform fully to the client’s body.</div>
                         </div>
                     </div>
                     <div class="ironing steps-pic-word row">
                         <div class="col-lg-4 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 ironing-content">
-                            <p class="number">06 <span class="steps-title">Ironing and label</span> </p>
-                            <div class="steps-content">屆縫製完成之時，將進行最後整燙；手工西裝最忌燙平，而是透過熨燙呈現布料與毛襯最佳的質感，使西服外觀自然流暢最後，我們將Gaute織標縫製於西服內部，是Gaute對於出品的品質保證，也是這套西服的永久保固</div>
+                            <p class="number">06 <span class="steps-title">Ironing ＆ Label</span> </p>
+                            <div class="steps-content">屆縫製完成之時，將進行最後整燙；手工西裝最忌燙平，而是透過熨燙呈現布料與毛襯最佳的質感，使西服外觀自然流暢最後，我們將Gaute織標縫製於西服內部，是Gaute對於出品的品質保證，也是這套西服的永久保固。</div>
                             <br>
-                            <div class="steps-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company
-                                for an Innovation by Design award.</div>
+                            <div class="steps-content step-english">Finally the smart label will placed on the lining and outside of the garment and signed Gaute.</div>
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-6">
                             <img src="images/Steps/6.png">
@@ -181,42 +241,42 @@
                     <p class="number">01<span class="steps-xs-title">Inquiry</span> </p>
                     <div class="steps-xs-content">透過專業的諮詢，我們將與您一同找出最合適的風格。依不同的場合、用途，量身打造出專屬於您的手工西服</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
+                    <div class="steps-xs-content step-english">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
                         an Innovation by Design award.</div>
                 </div>
                 <div class="steps-xs-text visible-xs">
                     <p class="number">02<span class="steps-xs-title">Selection</span> </p>
                     <div class="steps-xs-content">設定西服樣式後，依照客戶的需求與喜好，挑選世界各地優秀的布料與配件，並提供介紹與體驗；接著進行完整的尺寸測量，記錄所有身型特徵與體型判別</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
+                    <div class="steps-xs-content step-english">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
                         an Innovation by Design award.</div>
                 </div>
                 <div class="steps-xs-text visible-xs">
                     <p class="number">03<span class="steps-xs-title">Striking and cutting</span> </p>
                     <div class="steps-xs-content">依據所測量的數據製作版型，並針對不同體型的顧客做紙型補正，每件都是獨立紙型，根據不同體型微調；接著將布料按所製出的紙型進行剪裁，以純手工的方式縫合結構試穿與修樣</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
+                    <div class="steps-xs-content step-english">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
                         an Innovation by Design award.</div>
                 </div>
                 <div class="steps-xs-text visible-xs">
                     <p class="number">04<span class="steps-xs-title">Fitting and re-cutting</span> </p>
                     <div class="steps-xs-content">當顧客套上毛胚樣衣，直接在人體作微調；所有樣式、比例、線條和細節都再三琢磨，以達到完全量身訂製的效果；並且再次修正做出最細膩的尺寸調整</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
+                    <div class="steps-xs-content step-english">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
                         an Innovation by Design award.</div>
                 </div>
                 <div class="steps-xs-text visible-xs">
                     <p class="number">05<span class="steps-xs-title">Handiwork</span> </p>
                     <div class="steps-xs-content">手工西裝之所以為『活』的西裝，其精髓在於全毛襯結構。裁縫師傅將一針一線地結合馬毛、羊毛等數十種配件，並固定在表布上；最後縫上手工扣眼，這些工序都比機縫耗費多出數百倍的工時，然而，這就是手工</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
-                        an Innovation by Design award.</div>
+                    <div class="steps-xs-content step-english">During the sewing process, there is a considerable amount of pressing that is required to manipulate the fabric into a fully live and three-dimensional part of the whole garment. Familiarity of the fabric and experience is crucial
+                        here to attain the right curves and shape. The traditional materials of horsehair together with the suiting fabric provide the structure which will not only last but also conform fully to the client’s body.</div>
                 </div>
                 <div class="steps-xs-text visible-xs">
                     <p class="number">06<span class="steps-xs-title">Ironing and label</span> </p>
                     <div class="steps-xs-content">屆縫製完成之時，將進行最後整燙；手工西裝最忌燙平，而是透過熨燙呈現布料與毛襯最佳的質感，使西服外觀自然流暢最後，我們將Gaute織標縫製於西服內部，是Gaute對於出品的品質保證，也是這套西服的永久保固</div>
                     <br>
-                    <div class="steps-xs-content">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
+                    <div class="steps-xs-content step-english">Our playful research project Tomorrow’s Meatball — A visual exploration of future foods has been nominated by Fast Company for an Innovation by Design award.A visual exploration of future foods has been nominated by Fast Company for
                         an Innovation by Design award.</div>
                 </div>
             </div>
@@ -233,15 +293,13 @@
             </div>
             <div class="achieve_content">
                 <div class="activitys-cooperation ">
-                    <h3 class="activitys-title">活動合作</h3>
+                    <h3 class="activitys-title">Fashion Diary</h3>
                     <div class="activity">
                         <p class="activitys-cooperation_content popup-trigger">26屆傳藝金曲獎主持禮服</p>
                         <div class="popup ">
                             <h2 class="popup-title">26屆傳藝金曲獎主持禮服</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -251,8 +309,6 @@
                             <h2 class="popup-title">新加坡上海宣傳服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -262,8 +318,6 @@
                             <h2 class="popup-title">活動出席服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -273,8 +327,6 @@
                             <h2 class="popup-title">赤道電影記者會服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -284,8 +336,6 @@
                             <h2 class="popup-title">金花獎國際電影獎出席服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -295,8 +345,6 @@
                             <h2 class="popup-title">51屆金鐘獎入圍最佳男主角出席服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
@@ -306,14 +354,12 @@
                             <h2 class="popup-title">53屆金鐘獎入圍最佳新導演獎出席服裝</h2>
                             <p class="popup-content">Date: 2016/08/12</p>
                             <p class="popup-content">Location: Kaohsiung</p>
-                            <p class="popup-content">應經濟部之邀約參與了在高雄台鋁參加了盛大的婚紗 工藝&成品 設計展覽，出席的婚紗公司都是在國內外非常知名的 品牌因布此有樣幸選成擇為唯一受邀之西服品牌是對 Gaute 的一大肯定。此展覽 Gaute 是針對西服工藝和時尚 產品選擇 的設計為大眾做講解和分享，讓大眾可以更了手工西 服的工藝和西服的用途。 合作案例
-                            </p>
                             <span class="popup-btn-close ">close</span>
                         </div>
                     </div>
                 </div>
                 <div class="brand-cooperation">
-                    <h3 class="brand-title">品牌合作</h3>
+                    <h3 class="brand-title">Exhibition Diary</h3>
                     <div class="brand">
                         <p class="brand-name ">Glenfiddichh</p>
                         <a class="brand-cooperation_content popup-trigger " rel="nofollow ">15年單一麥芽威士忌廣告形象</a>
@@ -354,6 +400,32 @@
             </div>
         </div>
     </div>
+    <div class="gallery">
+        <a id="gallery"></a>
+        <div class="gallery_contents">
+            <div class="gallery_titles">
+                <h2 id="gallery_title">Suits Gallery</h2>
+            </div>
+            <div class="gallery_content">
+                <div class="carousel">
+                    <div class="owl-carousel owl-theme">
+                        <div><img class="carousel-picture" src="images/carousel/1.jpg" alt=""></div>
+                        <div><img class="carousel-picture" src="images/carousel/2.jpg" alt=""></div>
+                        <div><img class="carousel-picture" src="images/carousel/3.jpg" alt=""></div>
+                        <div><img class="carousel-picture" src="images/carousel/4.jpg" alt=""></div>
+                        <div><img class="carousel-picture" src="images/carousel/6.jpg" alt=""></div>
+                        <div><img class="carousel-picture" src="images/carousel/7.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="gallery_words">
+                    <p>With Gaute, confidence can be measurable</p>
+                </div>
+                <div class="gallery-entry">
+                    <a>Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="info">
         <a id="info"></a>
         <div class="info_contents">
@@ -364,6 +436,7 @@
             </div>
             <div class="info_content">
                 <p>Gaute Bespoke</p>
+                <p>台中市西屯區黎明路二段815-7號</p>
                 <p>No.815-7, Sec. 2, Liming Rd., Xitun Dist., Taichung City 407, Taiwan</p>
                 <p>gautebespoke@gmail.com</p>
                 <p>04 2252 8030</p>

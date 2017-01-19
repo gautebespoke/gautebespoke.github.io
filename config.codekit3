@@ -9,6 +9,124 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/css\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 3208,
+		"oA": 0,
+		"oAP": "\/css\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/css\/gallery-style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/gallery-style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/gallery-style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/gallery-style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.carousel.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.carousel-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.carousel.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.carousel.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.default-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.default-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.default.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.default-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.default.min-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.default.min-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.default.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.default.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.green.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.green-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owl.theme.green.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.theme.green.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -18,6 +136,14 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/gotop-01.png": {
+		"ft": 32768,
+		"iS": 1309,
+		"oA": 0,
+		"oAP": "\/gotop-01.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/1.png": {
 		"ft": 32768,
@@ -80,6 +206,208 @@
 		"iS": 64793,
 		"oA": 0,
 		"oAP": "\/images\/6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/1.jpg": {
+		"ft": 16384,
+		"iS": 2982883,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/2.jpg": {
+		"ft": 16384,
+		"iS": 2763531,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/3.jpg": {
+		"ft": 16384,
+		"iS": 2093076,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/4.jpg": {
+		"ft": 16384,
+		"iS": 3228452,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/5.jpg": {
+		"ft": 16384,
+		"iS": 263498,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/carousel\/6.jpg": {
+		"ft": 16384,
+		"iS": 211782,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/6.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/carousel\/7.jpg": {
+		"ft": 16384,
+		"iS": 280114,
+		"oA": 0,
+		"oAP": "\/images\/carousel\/7.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/Favicons\/favicon-114.png": {
+		"ft": 32768,
+		"iS": 2611,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-120.png": {
+		"ft": 32768,
+		"iS": 2682,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-144.png": {
+		"ft": 32768,
+		"iS": 3313,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-152.png": {
+		"ft": 32768,
+		"iS": 3600,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-180.png": {
+		"ft": 32768,
+		"iS": 4269,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-192.png": {
+		"ft": 32768,
+		"iS": 4596,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-32.png": {
+		"ft": 32768,
+		"iS": 723,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-36.png": {
+		"ft": 32768,
+		"iS": 820,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-36.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-48.png": {
+		"ft": 32768,
+		"iS": 1071,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-48.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-57.png": {
+		"ft": 32768,
+		"iS": 1251,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-60.png": {
+		"ft": 32768,
+		"iS": 1275,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-72.png": {
+		"ft": 32768,
+		"iS": 1629,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-76.png": {
+		"ft": 32768,
+		"iS": 1663,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon-96.png": {
+		"ft": 32768,
+		"iS": 2159,
+		"oA": 0,
+		"oAP": "\/images\/Favicons\/favicon-96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/Favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/images\/Favicons\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/Favicons\/Icon\r",
+		"oF": 0
+		},
+	"\/images\/Favicons\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/Favicons\/index.html",
+		"oF": 0
+		},
+	"\/images\/Favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/images\/Favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/images\/go-top.png": {
+		"ft": 32768,
+		"iS": 237,
+		"oA": 0,
+		"oAP": "\/images\/go-top.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -157,11 +485,59 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/Logo\/1.png": {
+		"ft": 32768,
+		"iS": 4442,
+		"oA": 0,
+		"oAP": "\/images\/Logo\/1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Logo\/1_white.png": {
+		"ft": 32768,
+		"iS": 8847,
+		"oA": 0,
+		"oAP": "\/images\/Logo\/1_white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Logo\/2.png": {
+		"ft": 32768,
+		"iS": 5327,
+		"oA": 0,
+		"oAP": "\/images\/Logo\/2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Logo\/3.png": {
+		"ft": 32768,
+		"iS": 6742,
+		"oA": 0,
+		"oAP": "\/images\/Logo\/3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Logo\/4.png": {
+		"ft": 32768,
+		"iS": 7824,
+		"oA": 0,
+		"oAP": "\/images\/Logo\/4.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/scissors.png": {
+		"ft": 32768,
+		"iS": 1168,
+		"oA": 0,
+		"oAP": "\/images\/scissors.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/scissors_bak.png": {
 		"ft": 32768,
 		"iS": 1051,
 		"oA": 0,
-		"oAP": "\/images\/scissors.png",
+		"oAP": "\/images\/scissors_bak.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -300,6 +676,240 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/masonry-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/masonry-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/masonry.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/masonry-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.animate-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.animate-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.animate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.animate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autoheight-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autoheight-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autoheight.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autoheight-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autoplay-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autoplay-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autoplay.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autoplay-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autorefresh-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autorefresh-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.autorefresh.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.autorefresh-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.carousel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.carousel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.carousel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.carousel.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.hash-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.hash-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.hash.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.hash-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.lazyload-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.lazyload-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.lazyload.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.lazyload-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.navigation-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.navigation-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.navigation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.support-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.support-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.support-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.support.modernizr-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.support.modernizr-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.support.modernizr.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.support.modernizr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.video-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.video-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.video.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/owl.video-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/ResponsiveSlides-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/ResponsiveSlides-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/ResponsiveSlides.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/ResponsiveSlides-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/scroll_to_top.js": {
 		"ft": 64,
 		"mi": 1,
@@ -308,14 +918,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/js\/suit.png": {
-		"ft": 32768,
-		"iS": 2858,
-		"oA": 0,
-		"oAP": "\/js\/suit.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -334,6 +936,163 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/scissors.png": {
+		"ft": 32768,
+		"iS": 1168,
+		"oA": 0,
+		"oAP": "\/scissors.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/slick\/config.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/slick\/fonts\/slick.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/slick\/fonts\/slick.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/slick\/slick-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/slick\/slick-theme.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/slick\/slick-theme-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/slick\/slick.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/slick\/slick-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/slick\/slick.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/slick\/slick.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/slick\/slick.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [

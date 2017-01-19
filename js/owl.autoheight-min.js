@@ -1,0 +1,8 @@
+/**
+ * AutoHeight Plugin
+ * @version 2.1.0
+ * @author Bartosz Wojciechowski
+ * @author David Deutsch
+ * @license The MIT License (MIT)
+ */
+!function($,t,e,s){var i=function(t){this._core=t,this._handlers={"initialized.owl.carousel refreshed.owl.carousel":$.proxy(function(t){t.namespace&&this._core.settings.autoHeight&&this.update()},this),"changed.owl.carousel":$.proxy(function(t){t.namespace&&this._core.settings.autoHeight&&"position"==t.property.name&&this.update()},this),"loaded.owl.lazy":$.proxy(function(t){t.namespace&&this._core.settings.autoHeight&&t.element.closest("."+this._core.settings.itemClass).index()===this._core.current()&&this.update()},this)},this._core.options=$.extend({},i.Defaults,this._core.options),this._core.$element.on(this._handlers)};i.Defaults={autoHeight:!1,autoHeightClass:"owl-height"},i.prototype.update=function(){var t=this._core._current,e=t+this._core.settings.items,s=this._core.$stage.children().toArray().slice(t,e),i=[],o=0;$.each(s,function(t,e){i.push($(e).height())}),o=Math.max.apply(null,i),this._core.$stage.parent().height(o).addClass(this._core.settings.autoHeightClass)},i.prototype.destroy=function(){var t,e;for(t in this._handlers)this._core.$element.off(t,this._handlers[t]);for(e in Object.getOwnPropertyNames(this))"function"!=typeof this[e]&&(this[e]=null)},$.fn.owlCarousel.Constructor.Plugins.AutoHeight=i}(window.Zepto||window.jQuery,window,document);
