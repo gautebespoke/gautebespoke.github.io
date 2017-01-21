@@ -7,7 +7,7 @@
 		"uuidString": "E51512DC-0085-4FDE-BA75-F26CBDE8483C"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/css\/ajax-loader.gif": {
 		"ft": 4194304,
@@ -249,7 +249,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/carousel\/6.jpg": {
+	"\/images\/carousel\/6.JPG": {
 		"ft": 16384,
 		"iS": 211782,
 		"oA": 0,
@@ -257,7 +257,7 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/images\/carousel\/7.jpg": {
+	"\/images\/carousel\/7.JPG": {
 		"ft": 16384,
 		"iS": 280114,
 		"oA": 0,
@@ -1751,6 +1751,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2290,6 +2294,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
