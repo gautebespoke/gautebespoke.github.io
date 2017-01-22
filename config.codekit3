@@ -661,6 +661,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/white.png": {
+		"ft": 32768,
+		"iS": 8847,
+		"oA": 0,
+		"oAP": "\/images\/white.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
