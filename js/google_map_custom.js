@@ -1,6 +1,3 @@
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-
 function initMap() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -38,7 +35,6 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(24.165322, 120.634598),
         map: map,
-        icon: image,
         title: 'Gaute!'
     });
 }
