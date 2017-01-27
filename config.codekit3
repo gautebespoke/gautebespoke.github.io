@@ -17,6 +17,26 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/css\/cochin.font-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/cochin.font-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/cochin.font.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/cochin.font-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/gallery-style-min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -136,6 +156,12 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/fonts\/Cochin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Cochin.woff",
+		"oF": 0
 		},
 	"\/gotop-01.png": {
 		"ft": 32768,
