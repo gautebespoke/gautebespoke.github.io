@@ -239,7 +239,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 10%;
+        top: 8%;
         left: 50%;
         width: 100%;
         margin-left: -50%;
@@ -250,6 +250,15 @@ a:active {
         line-height: 30px;
         border: 2px solid #150E2D;
         z-index: 9999;
+    }
+    .popup img {
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -586,7 +595,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 10%;
+        top: 8%;
         left: 50%;
         width: 100%;
         margin-left: -50%;
@@ -597,6 +606,15 @@ a:active {
         line-height: 30px;
         border: 2px solid #150E2D;
         z-index: 9999;
+    }
+    .popup img {
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -933,7 +951,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 10%;
+        top: 8%;
         left: 50%;
         width: 100%;
         margin-left: -50%;
@@ -944,6 +962,15 @@ a:active {
         line-height: 30px;
         border: 2px solid #150E2D;
         z-index: 9999;
+    }
+    .popup img {
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -1323,7 +1350,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 20%;
+        top: 8%;
         left: 50%;
         width: 700px;
         margin-left: -350px;
@@ -1334,6 +1361,15 @@ a:active {
         line-height: 30px;
         border: 2px solid #150E2D;
         z-index: 9999;
+    }
+    .popup img {
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -1679,7 +1715,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 20%;
+        top: 8%;
         left: 50%;
         width: 700px;
         margin-left: -350px;
@@ -1690,6 +1726,15 @@ a:active {
         line-height: 30px;
         border: 2px solid #150E2D;
         z-index: 9999;
+    }
+    .popup img {
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -2042,7 +2087,7 @@ a:active {
         display: none;
         position: fixed;
         border-radius: 8px;
-        top: 10%;
+        top: 8%;
         left: 50%;
         width: 700px;
         margin-left: -350px;
@@ -2055,7 +2100,13 @@ a:active {
         z-index: 9999;
     }
     .popup img {
-        width: 70%;
+        width: 40%;
+    }
+    .popup .goldenbell53 {
+        width: 60%;
+    }
+    .popup .MLD {
+        width: 35%;
     }
     .popup-title {
         font-weight: 300;
@@ -2866,7 +2917,13 @@ a:active {
             z-index: 9999;
         }
         .popup img {
-            width: 70%;
+            width: 40%;
+        }
+        .popup .goldenbell53 {
+            width: 60%;
+        }
+        .popup .MLD {
+            width: 35%;
         }
         .popup-title {
             font-weight: 300;
